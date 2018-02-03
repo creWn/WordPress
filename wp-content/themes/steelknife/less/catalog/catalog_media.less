@@ -1,0 +1,114 @@
+@media only screen and(max-width: 1200px){
+	.wrap_content{
+		//background-color: yellow;
+		.tab_wrapper{
+			.tab_menu{
+				ul{
+					li{
+						padding: 25px 10px;
+						font-size: 16px;
+					}
+					li.active{
+						background-color: white;
+					}
+				}
+				.black_line{
+					width: 95%;
+				}
+			}
+			.tab_content{
+				.knife_item_wrap{
+					.knife_wrap{
+						img{
+							min-height: 150px;
+						}
+						.youtube.active{
+							display: none;
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width: 992px){
+	.wrap_content{
+		// background-color: green;
+		.tab_wrapper{
+			.tab_content{
+				.knife_item_wrap{
+					.knife_wrap{
+						.knife_info{
+							div{
+								font-size: 8px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width: 768px){
+	.wrap_content{
+		// background-color: blue;
+		.tab_wrapper{
+			.tab_menu{
+				ul{
+					li{
+						padding: 20px 5px;
+						font-size: 11px;
+					}
+				}	
+			}
+			.tab_content{
+				.knife_item_wrap{
+					.knife_item{
+						justify-content: flex-start;
+					}
+					.knife_wrap{
+						width: 200px;
+						img{
+							min-height: 150px;
+						}
+						.knife_info{
+							div{
+								font-size: 7.5px;
+							}
+						}
+					}
+
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width: 480px){
+	.wrap_content{
+		// background-color: orange;
+		.tab_wrapper{
+			.tab_menu{
+				ul{
+					li{
+						float: none;
+						text-align: center;
+					}
+				}
+				.black_line{
+					display: none;
+				}
+			}
+			.tab_content{
+				.knife_item_wrap{
+					.knife_item{
+						justify-content: center;
+					}
+					.knife_wrap{
+						width: 280px;
+					}
+				}	
+			}
+		}
+	}
+}
