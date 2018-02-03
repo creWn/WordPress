@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+header {
+  display: none;
+}
+header #hamburger {
+  margin: 20px;
+  width: 50px;
+}
+header #hamburger div {
+  width: 100%;
+  height: 5px;
+  margin: 5px 0;
+  background-color: #000000;
+  display: block;
+}
+header .logo h1 {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: 'GothaProLig';
+}
+header .logo h1 span {
+  font-family: 'GothaProBol';
+}
+.dark_layout {
+  width: 100%;
+  position: absolute;
+  z-index: 11;
+  background-color: #000000;
+  opacity: 0;
+  display: none;
+}
+aside {
+  z-index: 222;
+  background-color: #000000;
+  margin: 10px 0;
+  padding: 50px 10px 10px 10px;
+  position: fixed;
+  width: 30%;
+  max-width: 360px;
+}
+aside .rotate_logo h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'GothaProLig';
+  text-align: right;
+  margin: 0;
+  float: right;
+  margin-bottom: 40px;
+}
+aside .rotate_logo h1:first-child {
+  text-align: left;
+  float: left;
+}
+aside .rotate_logo h1 span {
+  font-family: 'GothaProBol';
+}
+aside .rotate_logo .logo_wrap {
+  width: 33%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+}
+aside .rotate_logo .logo_wrap img {
+  width: 100%;
+  height: 100%;
+  transform: rotateZ(0deg);
+  transition: transform .5s;
+}
+aside .rotate_logo .logo_wrap img:hover {
+  transform: rotateZ(180deg);
+}
+aside nav {
+  margin-top: 30px;
+}
+aside nav ul li {
+  text-align: center;
+  list-style: none;
+  font-family: "GothaProReg";
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+aside nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+aside nav ul li a:active {
+  color: white;
+  text-decoration: none;
+}
+aside nav ul li a:visited {
+  color: white;
+  text-decoration: none;
+}
+aside nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+aside nav ul li nav {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 20px;
+  background-color: black;
+  padding: 10px;
+  width: 200px;
+  padding-left: 20px;
+}
+aside nav ul li nav ul {
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: white;
+  text-align: left;
+}
+aside nav ul li nav ul li {
+  text-transform: none;
+  font-size: 12px;
+  margin-left: 20px;
+  text-align: left;
+  padding: 1px 7px;
+  border-radius: 2px;
+}
+aside nav ul li nav ul li:hover {
+  background-color: #121212;
+}
+aside nav ul li span {
+  width: 0px;
+  height: 3px;
+  background-color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  transition: all .3s;
+}
+aside nav ul li .active {
+  width: 40px;
+}
+aside .mobile_numbers {
+  margin-top: 30px;
+}
+aside .mobile_numbers li {
+  text-align: center;
+  list-style: none;
+  font-family: "GothaProReg";
+  color: white;
+  margin: 10px 0;
+  font-size: 16px;
+}
+aside #write_us {
+  padding: 20px 40px;
+  font-family: "GothaProReg";
+  font-size: 16px;
+  background-color: white;
+  border: solid 1px #000000;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+  transition: all .4s;
+}
+aside #write_us:hover {
+  background-color: #000000;
+  color: white;
+  border: solid 1px white;
+}
+aside .social_network ul li {
+  font-family: 'GothaProBol';
+}
+.wrap_content {
+  padding: 15px;
+  padding-top: 5px;
+  float: right;
+  z-index: 0;
+}
+.wrap_content .wrap_category img {
+  transition: all .3s;
+  width: 100%;
+}
+.wrap_content .wrap_category img:hover {
+  transform: scale(1.1);
+}
+.wrap_content #cat_damask {
+  padding: 5px;
+}
+.wrap_content #cat_damask #higher_pic {
+  display: none;
+}
+.wrap_content #cat_95X18 {
+  height: 40%;
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.wrap_content #cat_65X13 {
+  height: 40%;
+  width: 50%;
+  float: right;
+  padding: 5px;
+}
+.wrap_content .wallpaper_cat {
+  position: relative;
+  overflow: hidden;
+}
+.wrap_content .wallpaper_cat h1 {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: white;
+  font-family: "GothaProReg";
+}
+.wrap_content .wallpaper_cat span {
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  height: 4px;
+  width: 80px;
+  background-color: white;
+}
+.wrap_content .about_us {
+  padding: 5px;
+}
+.wrap_content .about_us .capture_us {
+  margin: 10px 0;
+}
+.wrap_content .about_us .capture_us h1 {
+  text-align: left;
+  font-family: 'GothaProBol';
+  margin: 0;
+  font-size: 25px;
+}
+.wrap_content .about_us .content_us {
+  margin: 10px 0;
+}
+.wrap_content .about_us .content_us p {
+  font-family: "GothaProReg";
+}
+.wrap_content .about_us .content_us .icon_wrap {
+  width: 200px;
+  padding: 0 10px;
+}
+.wrap_content .about_us .content_us .icon_wrap img {
+  width: 100%;
+}
+.wrap_content .about_us .content_us .icon_wrap p {
+  margin: 15px 0;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "GothaProReg";
+}
+.wrap_content .about_us .wrap_all_icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

@@ -1,0 +1,120 @@
+.wrap_content .tab_wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrap_content .tab_wrapper .tab_menu {
+  position: relative;
+  margin-top: 20px;
+  font-family: 'GothaProBol';
+}
+.wrap_content .tab_wrapper .tab_menu ul li {
+  float: left;
+  padding: 25px;
+  background: white;
+  display: block;
+  font-size: 18px;
+  cursor: pointer;
+}
+.wrap_content .tab_wrapper .tab_menu ul li:hover {
+  background: #fcfcfc;
+}
+.wrap_content .tab_wrapper .tab_menu ul .active {
+  background: #fcfcfc;
+}
+.wrap_content .tab_wrapper .tab_menu .black_line {
+  position: absolute;
+  bottom: -1px;
+  width: 90%;
+  height: 2px;
+  background-color: black;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap {
+  display: none;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap {
+  width: 30%;
+  display: block;
+  margin: 1%;
+  margin-top: 35px;
+  position: relative;
+  min-height: 170px;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap img {
+  width: 100%;
+  min-height: 170px;
+  margin-bottom: 20px;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .knife_info {
+  position: absolute;
+  width: 100%;
+  min-height: 150px;
+  background-color: black;
+  top: 0;
+  opacity: 0;
+  padding: 20px;
+  transition: opacity .5s;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .knife_info:hover {
+  opacity: .75;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .knife_info div {
+  font-size: .85vw;
+  text-transform: uppercase;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .knife_info div .name {
+  font-family: "GothaProReg";
+  color: #989898;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .knife_info div .value {
+  margin-left: 20px;
+  font-family: 'GothaProBol';
+  color: #e3e3e3;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap h3 {
+  font-size: 20px;
+  float: left;
+  font-family: 'GothaProBol';
+  color: black;
+  line-height: 42px;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .youtube {
+  float: right;
+  display: none;
+  background-color: transparent;
+  padding: 0;
+  position: relative;
+  color: black;
+  font-family: "GothaProReg";
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .youtube.active {
+  display: block;
+  line-height: 45px;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .youtube.active:before {
+  content: '';
+  position: absolute;
+  background-image: url('../../img/icons/eye.png');
+  height: 18px;
+  width: 24px;
+  left: -30px;
+  bottom: 13px;
+}
+.wrap_content .tab_wrapper .tab_content .knife_item_wrap .knife_wrap .price {
+  display: block;
+  color: white;
+  background-color: black;
+  padding: 12px;
+  width: 80px;
+  text-align: center;
+  float: right;
+  font-family: 'GothaProBol';
+  margin-left: 5px;
+}
+.wrap_content .tab_wrapper .tab_content .active {
+  display: block;
+}

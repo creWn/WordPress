@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1200px) {
+  aside {
+    display: none;
+  }
+  .wrap_content .description .about_knife p {
+    font-size: 13px;
+    line-height: 12px;
+  }
+  .wrap_content .see_also_wrap .knife_wrap .youtube.active {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .wrap_content .description h1 {
+    font-size: 26px;
+  }
+  .wrap_content .description .buttons button {
+    font-size: 16px;
+  }
+  .wrap_content .description .property div {
+    font-size: 12px;
+  }
+  .wrap_content .description .about_knife p {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .wrap_content .description .mailto button {
+    font-size: 16px;
+  }
+  .wrap_content .see_also_wrap h2 {
+    font-size: 22px;
+  }
+  .wrap_content .see_also_wrap .knife_wrap img {
+    min-height: 130px;
+  }
+  .wrap_content .see_also_wrap .knife_wrap h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .wrap_content .description h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .wrap_content .description .buttons button {
+    padding: 8px 24px;
+  }
+  .wrap_content .description .mailto button {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+  }
+  .wrap_content .see_also_wrap .knife_wrap {
+    margin: 2%;
+    width: 46%;
+  }
+  .wrap_content .see_also_wrap .knife_wrap img {
+    min-height: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .wrap_content .description .buttons {
+    text-align: center;
+  }
+  .wrap_content .see_also_wrap h2 {
+    margin-bottom: 15px;
+  }
+  .wrap_content .see_also_wrap .knife_wrap {
+    width: 96%;
+  }
+}
